@@ -3,29 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		7434A78C2F31072400F9C75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7434A7822F31072400F9C75B /* Assets.xcassets */; };
+		7434A78E2F31072400F9C75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434A7862F31072400F9C75B /* LaunchScreen.storyboard */; };
+		7434A78F2F31072400F9C75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7434A7882F31072400F9C75B /* Main.storyboard */; };
+		7434A7902F31072400F9C75B /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7692F31072400F9C75B /* GameModels.swift */; };
+		7434A7912F31072400F9C75B /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A76A2F31072400F9C75B /* GameSettings.swift */; };
+		7434A7922F31072400F9C75B /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A76C2F31072400F9C75B /* AchievementManager.swift */; };
+		7434A7932F31072400F9C75B /* CognitiveAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A76D2F31072400F9C75B /* CognitiveAnalytics.swift */; };
+		7434A7942F31072400F9C75B /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A76E2F31072400F9C75B /* ExportManager.swift */; };
+		7434A7952F31072400F9C75B /* NeuroDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A76F2F31072400F9C75B /* NeuroDataStore.swift */; };
+		7434A7962F31072400F9C75B /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7702F31072400F9C75B /* NotificationManager.swift */; };
+		7434A7972F31072400F9C75B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7712F31072400F9C75B /* SoundManager.swift */; };
+		7434A7982F31072400F9C75B /* SynapseGameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7722F31072400F9C75B /* SynapseGameEngine.swift */; };
+		7434A7992F31072400F9C75B /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7742F31072400F9C75B /* CheckLink.swift */; };
+		7434A79A2F31072400F9C75B /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7752F31072400F9C75B /* InternetViewController.swift */; };
+		7434A79B2F31072400F9C75B /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7762F31072400F9C75B /* LoaderViewController.swift */; };
+		7434A79C2F31072400F9C75B /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7782F31072400F9C75B /* AchievementsView.swift */; };
+		7434A79D2F31072400F9C75B /* EditNodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7792F31072400F9C75B /* EditNodeView.swift */; };
+		7434A79E2F31072400F9C75B /* FlowBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A77A2F31072400F9C75B /* FlowBuilderView.swift */; };
+		7434A79F2F31072400F9C75B /* NodeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A77B2F31072400F9C75B /* NodeDetailsView.swift */; };
+		7434A7A02F31072400F9C75B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A77C2F31072400F9C75B /* OnboardingView.swift */; };
+		7434A7A12F31072400F9C75B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A77D2F31072400F9C75B /* SettingsView.swift */; };
+		7434A7A22F31072400F9C75B /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A77E2F31072400F9C75B /* StatisticsView.swift */; };
+		7434A7A32F31072400F9C75B /* SynapseTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A77F2F31072400F9C75B /* SynapseTestView.swift */; };
+		7434A7A42F31072400F9C75B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7812F31072400F9C75B /* AppDelegate.swift */; };
+		7434A7A52F31072400F9C75B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7832F31072400F9C75B /* ContentView.swift */; };
+		7434A7A62F31072400F9C75B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A7892F31072400F9C75B /* SceneDelegate.swift */; };
+		7434A7A72F31072400F9C75B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434A78A2F31072400F9C75B /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		53BEA96E6ECA7183D47B66BD /* Pods-70SYNAPSEFLOW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-70SYNAPSEFLOW.release.xcconfig"; path = "Target Support Files/Pods-70SYNAPSEFLOW/Pods-70SYNAPSEFLOW.release.xcconfig"; sourceTree = "<group>"; };
+		7434A7692F31072400F9C75B /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		7434A76A2F31072400F9C75B /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		7434A76C2F31072400F9C75B /* AchievementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementManager.swift; sourceTree = "<group>"; };
+		7434A76D2F31072400F9C75B /* CognitiveAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitiveAnalytics.swift; sourceTree = "<group>"; };
+		7434A76E2F31072400F9C75B /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportManager.swift; sourceTree = "<group>"; };
+		7434A76F2F31072400F9C75B /* NeuroDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroDataStore.swift; sourceTree = "<group>"; };
+		7434A7702F31072400F9C75B /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		7434A7712F31072400F9C75B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		7434A7722F31072400F9C75B /* SynapseGameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynapseGameEngine.swift; sourceTree = "<group>"; };
+		7434A7742F31072400F9C75B /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7434A7752F31072400F9C75B /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7434A7762F31072400F9C75B /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		7434A7782F31072400F9C75B /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7434A7792F31072400F9C75B /* EditNodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNodeView.swift; sourceTree = "<group>"; };
+		7434A77A2F31072400F9C75B /* FlowBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowBuilderView.swift; sourceTree = "<group>"; };
+		7434A77B2F31072400F9C75B /* NodeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeDetailsView.swift; sourceTree = "<group>"; };
+		7434A77C2F31072400F9C75B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7434A77D2F31072400F9C75B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7434A77E2F31072400F9C75B /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		7434A77F2F31072400F9C75B /* SynapseTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynapseTestView.swift; sourceTree = "<group>"; };
+		7434A7812F31072400F9C75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7434A7822F31072400F9C75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7434A7832F31072400F9C75B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7434A7842F31072400F9C75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7434A7852F31072400F9C75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7434A7872F31072400F9C75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7434A7892F31072400F9C75B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7434A78A2F31072400F9C75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74CD80212F2697EC006C69B5 /* 70SYNAPSEFLOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 70SYNAPSEFLOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3249EAC8847C44D661772D /* Pods-70SYNAPSEFLOW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-70SYNAPSEFLOW.debug.xcconfig"; path = "Target Support Files/Pods-70SYNAPSEFLOW/Pods-70SYNAPSEFLOW.debug.xcconfig"; sourceTree = "<group>"; };
 		F16BD1A795B1650B1F2BE0EA /* Pods_70SYNAPSEFLOW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_70SYNAPSEFLOW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		74CD805B2F269837006C69B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 74CD80202F2697EC006C69B5 /* 70SYNAPSEFLOW */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		74CD80532F269837006C69B5 /* 70SYNAPSEFLOW */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (74CD805B2F269837006C69B5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 70SYNAPSEFLOW; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74CD801E2F2697EC006C69B5 /* Frameworks */ = {
@@ -38,10 +82,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7434A76B2F31072400F9C75B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7692F31072400F9C75B /* GameModels.swift */,
+				7434A76A2F31072400F9C75B /* GameSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7434A7732F31072400F9C75B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7434A76C2F31072400F9C75B /* AchievementManager.swift */,
+				7434A76D2F31072400F9C75B /* CognitiveAnalytics.swift */,
+				7434A76E2F31072400F9C75B /* ExportManager.swift */,
+				7434A76F2F31072400F9C75B /* NeuroDataStore.swift */,
+				7434A7702F31072400F9C75B /* NotificationManager.swift */,
+				7434A7712F31072400F9C75B /* SoundManager.swift */,
+				7434A7722F31072400F9C75B /* SynapseGameEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7434A7772F31072400F9C75B /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7742F31072400F9C75B /* CheckLink.swift */,
+				7434A7752F31072400F9C75B /* InternetViewController.swift */,
+				7434A7762F31072400F9C75B /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		7434A7802F31072400F9C75B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7434A7772F31072400F9C75B /* LoadingView */,
+				7434A7782F31072400F9C75B /* AchievementsView.swift */,
+				7434A7792F31072400F9C75B /* EditNodeView.swift */,
+				7434A77A2F31072400F9C75B /* FlowBuilderView.swift */,
+				7434A77B2F31072400F9C75B /* NodeDetailsView.swift */,
+				7434A77C2F31072400F9C75B /* OnboardingView.swift */,
+				7434A77D2F31072400F9C75B /* SettingsView.swift */,
+				7434A77E2F31072400F9C75B /* StatisticsView.swift */,
+				7434A77F2F31072400F9C75B /* SynapseTestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7434A78B2F31072400F9C75B /* 70SYNAPSEFLOW */ = {
+			isa = PBXGroup;
+			children = (
+				7434A76B2F31072400F9C75B /* Models */,
+				7434A7732F31072400F9C75B /* Services */,
+				7434A7802F31072400F9C75B /* Views */,
+				7434A7812F31072400F9C75B /* AppDelegate.swift */,
+				7434A7822F31072400F9C75B /* Assets.xcassets */,
+				7434A7832F31072400F9C75B /* ContentView.swift */,
+				7434A7842F31072400F9C75B /* Info.plist */,
+				7434A7862F31072400F9C75B /* LaunchScreen.storyboard */,
+				7434A7882F31072400F9C75B /* Main.storyboard */,
+				7434A7892F31072400F9C75B /* SceneDelegate.swift */,
+				7434A78A2F31072400F9C75B /* ViewController.swift */,
+			);
+			path = 70SYNAPSEFLOW;
+			sourceTree = "<group>";
+		};
 		74CD80182F2697EC006C69B5 = {
 			isa = PBXGroup;
 			children = (
-				74CD80532F269837006C69B5 /* 70SYNAPSEFLOW */,
+				7434A78B2F31072400F9C75B /* 70SYNAPSEFLOW */,
 				74CD80222F2697EC006C69B5 /* Products */,
 				D03701574B78C4E6271EF9B4 /* Pods */,
 				D88DB2495776BF53A527D513 /* Frameworks */,
@@ -89,9 +200,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				74CD80532F269837006C69B5 /* 70SYNAPSEFLOW */,
-			);
 			name = 70SYNAPSEFLOW;
 			productName = 70SYNAPSEFLOW;
 			productReference = 74CD80212F2697EC006C69B5 /* 70SYNAPSEFLOW.app */;
@@ -135,6 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434A78C2F31072400F9C75B /* Assets.xcassets in Resources */,
+				7434A78E2F31072400F9C75B /* LaunchScreen.storyboard in Resources */,
+				7434A78F2F31072400F9C75B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +281,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434A7902F31072400F9C75B /* GameModels.swift in Sources */,
+				7434A7912F31072400F9C75B /* GameSettings.swift in Sources */,
+				7434A7922F31072400F9C75B /* AchievementManager.swift in Sources */,
+				7434A7932F31072400F9C75B /* CognitiveAnalytics.swift in Sources */,
+				7434A7942F31072400F9C75B /* ExportManager.swift in Sources */,
+				7434A7952F31072400F9C75B /* NeuroDataStore.swift in Sources */,
+				7434A7962F31072400F9C75B /* NotificationManager.swift in Sources */,
+				7434A7972F31072400F9C75B /* SoundManager.swift in Sources */,
+				7434A7982F31072400F9C75B /* SynapseGameEngine.swift in Sources */,
+				7434A7992F31072400F9C75B /* CheckLink.swift in Sources */,
+				7434A79A2F31072400F9C75B /* InternetViewController.swift in Sources */,
+				7434A79B2F31072400F9C75B /* LoaderViewController.swift in Sources */,
+				7434A79C2F31072400F9C75B /* AchievementsView.swift in Sources */,
+				7434A79D2F31072400F9C75B /* EditNodeView.swift in Sources */,
+				7434A79E2F31072400F9C75B /* FlowBuilderView.swift in Sources */,
+				7434A79F2F31072400F9C75B /* NodeDetailsView.swift in Sources */,
+				7434A7A02F31072400F9C75B /* OnboardingView.swift in Sources */,
+				7434A7A12F31072400F9C75B /* SettingsView.swift in Sources */,
+				7434A7A22F31072400F9C75B /* StatisticsView.swift in Sources */,
+				7434A7A32F31072400F9C75B /* SynapseTestView.swift in Sources */,
+				7434A7A42F31072400F9C75B /* AppDelegate.swift in Sources */,
+				7434A7A52F31072400F9C75B /* ContentView.swift in Sources */,
+				7434A7A62F31072400F9C75B /* SceneDelegate.swift in Sources */,
+				7434A7A72F31072400F9C75B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7434A7862F31072400F9C75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7434A7852F31072400F9C75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7434A7882F31072400F9C75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7434A7872F31072400F9C75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74CD80352F2697ED006C69B5 /* Debug */ = {
@@ -186,6 +340,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 70SYNAPSEFLOW/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Snake SynapseFlow";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +352,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-0SYNAPSEFLOW";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ver.s1n2ps5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +378,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 70SYNAPSEFLOW/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Snake SynapseFlow";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-0SYNAPSEFLOW";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ver.s1n2ps5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

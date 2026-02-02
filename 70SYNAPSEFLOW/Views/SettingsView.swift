@@ -81,7 +81,7 @@ struct SettingsView: View {
                         .listRowBackground(Color.white.opacity(0.1))
                         
                         Button(action: {
-                            openURL("https://example.com/privacy-policy")
+                            openURL("https://www.termsfeed.com/live/859b1641-e1f1-44a7-96d6-b586b7e42bf3")
                         }) {
                             HStack {
                                 Text("Privacy Policy")
@@ -95,7 +95,7 @@ struct SettingsView: View {
                         .listRowBackground(Color.white.opacity(0.1))
                         
                         Button(action: {
-                            openURL("https://example.com/terms-of-service")
+                            openURL("https://www.termsfeed.com/live/85e83116-c139-45e0-b750-7be26bdce636")
                         }) {
                             HStack {
                                 Text("Terms of Service")
